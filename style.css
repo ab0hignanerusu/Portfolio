@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: #fff;
+}
+.nav-bar ul li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+}
+.nav-bar{
+    position:static;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 8px;
+}
+a li{
+    color: #fff;
+    text-decoration: none;
+}
+a li:hover{
+    color:#000;
+    background-color: #fff;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-weight: 400;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row1 img{
+    height: 400px;
+    width: 300px;
+    margin-right: 100px;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+.col1 p{
+    font-size:28px;
+    width: 50%;
+}
+.col1 h1{
+    font-size:40px;
+}
+.education-sub{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.srmap{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #fff;
+    padding: 15px;
+    width: 75%;
+    border-radius: 20px;
+    font-size: 30px;
+    margin:10px 0 0 50px;
+}
+.srmap img{
+    height: 150px;
+    width: 300px;
+    margin: auto;
+}
+.srmap-edu{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Caudex', serif;
+}
+.srmap-edu h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.srmap-edu h4,h3{
+    font-weight: 700;
+}
+.edu{
+    font-size: 70px;
+    margin-left: 140px;
+}
+#Education{
+    margin-left: 500px;
+}
+.project {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+}
+.skills img{
+    height: 200px;
+    width: 200px;
+    margin-right: 30px;
+}
+.media{
+    margin-left: 800px;
+}
+.media a{
+    font-size: 30px;
+    text-decoration: none;
+}
